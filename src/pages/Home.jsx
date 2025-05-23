@@ -40,7 +40,7 @@ function Home() {
 
       <section>
         <div className="flex flex-col lg:flex-row gap-5 items-center border-t-1 border-b-1 border-gray-500 bg-black text-white">
-          <img className="lg:relative lg:w-2/3" src="spyro.png" alt="" />
+          <img className="lg:relative lg:w-2/3 mask-x-from-75% lg:mask-x-to-95%" src="spyro.png" alt="" />
           <div className="lg:absolute flex flex-col gap-3 mx-5">
             <h1 className="text-blue-600 text-4xl font-bold">HAVE FUN</h1>
             <p className="text-xl">Learn more about job opportunities</p>
