@@ -10,37 +10,37 @@ function GamesCards() {
         },
                 {
             img: "https://www.activision.com/content/dam/atvi/callofduty/cod-touchui/warzone/common/wz-boxart.jpg",
-            title: "Call of Duty Black Ops 6",
+            title: "Call of Duty®:  Warzone",
             rating: "Mature 17+"
         },
                         {
             img: "https://www.activision.com/content/dam/atvi/activision/games/call-of-duty/call-of-duty-modern-warfare-iii/mwiii-boxart.jpg",
-            title: "Call of Duty Black Ops 6",
+            title: "Call of Duty Modern Warfare III",
             rating: "Mature 17+"
         },
                         {
             img: "https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/games/game-details/crash-bandicoot/crash-team-rumble/CTRumble_KEYART_SEASON2_1080X1350_AVAILABLE_NOW.jpg",
-            title: "Call of Duty Black Ops 6",
-            rating: "Mature 17+"
+            title: "Crash Team Rumble",
+            rating: "Everyone 10+"
         },
                         {
             img: "https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/games/game-details/tony-hawk/tony-hawk-pro-skater-1-2/thps-1-2-boxart.png",
-            title: "Call of Duty Black Ops 6",
-            rating: "Mature 17+"
+            title: "Tony Hawk's™ Pro Skater™ 1 + 2",
+            rating: "TEEN"
         },
                         {
             img: "https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/games/game-details/call-of-duty/mobile/codm-boxart.jpg",
-            title: "Call of Duty Black Ops 6",
+            title: "Call of Duty®:  Mobile",
             rating: "Mature 17+"
         },
                         {
             img: "https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/games/game-details/sekiro/shadows-die-twice/sekiro-boxart.jpg",
-            title: "Call of Duty Black Ops 6",
+            title: "Sekiro®: Shadows Die Twice",
             rating: "Mature 17+"
         },
                         {
             img: "https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/games/game-details/spyro/reignited-trilogy/spyro-boxart.png",
-            title: "Call of Duty Black Ops 6",
+            title: "SPYRO®  Reignited Trilogy",
             rating: "Mature 17+"
         },
     ]
