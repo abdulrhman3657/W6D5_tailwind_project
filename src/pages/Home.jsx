@@ -9,7 +9,7 @@ function Home() {
         playsInline
         loop
         muted
-        // autoPlay
+        autoPlay
       >
         <source
           className="mp4 desktop"
