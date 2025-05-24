@@ -14,6 +14,10 @@ function Navbar() {
       title: "Careers",
       path: "careers",
     },
+    {
+      title: "Support",
+      path: "support",
+    },
   ];
 
   return (

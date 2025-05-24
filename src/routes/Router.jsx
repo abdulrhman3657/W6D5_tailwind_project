@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Careers from "../pages/Careers";
+import Support from "../pages/Support";
 
 const LayOut = () => {
   return (
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
       {path: "/", element: <Home/>},
       {path: "about", element: <About/>},
       {path: "careers", element: <Careers/>},
+      {path: "support", element: <Support/>},
     ],
   },
 ]);
