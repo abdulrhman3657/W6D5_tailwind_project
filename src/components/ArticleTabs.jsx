@@ -22,7 +22,7 @@ function ArticleTabs() {
       <ul className="flex gap-5">
         {
             tabs.map((tab, index) => (
-                <li className="hover:bg-[#0768af]/60"><img className="w-50 h-20" src={tab.img} alt="" /></li>
+                <li className="hover:bg-[#0768af]/60 hover:border-b-[#0768af] border-b-10 border-b-amber-50/0"><img className="w-50 h-20" src={tab.img} alt="" /></li>
             ))
         }
       </ul>
