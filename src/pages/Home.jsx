@@ -3,20 +3,24 @@ import Articles from "../components/Articles";
 
 function Home() {
   return (
-    <div className="">
-      <video
-        className="w-full"
-        playsInline
-        loop
-        muted
-        autoPlay
-      >
-        <source
-          className="mp4 desktop"
-          src="https://www.activision.com/cdn/crash/crash_team_rumble.mp4"
-          type="video/mp4"
-        />
-      </video>
+    <div>
+      <div className="relative">
+        <video className="w-full" playsInline loop muted autoPlay>
+          <source
+            className="mp4 desktop"
+            src="https://www.activision.com/cdn/crash/crash_team_rumble.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-3">
+          <img className="hidden lg:block" src="crash-team-rumble-logo.png" alt="" />
+          <p className="hidden lg:block text-white text-3xl font-bold text-shadow-black text-shadow-2xs">Get ready to dash, jump, slide, and bounce</p>
+          <div className="hidden lg:flex gap-3">
+            <button className="text-white font-bold border w-75 h-15 rounded-3xl bg-[#0768af]/70">Get Now</button>
+            <button className="text-white font-bold border w-75 h-15 rounded-3xl">Visit Site</button>
+          </div>
+        </div>
+      </div>
 
       <Articles />
 
@@ -40,7 +44,11 @@ function Home() {
 
       <section>
         <div className="flex flex-col lg:flex-row gap-5 items-center border-t-1 border-b-1 border-gray-500 bg-black text-white">
-          <img className="lg:relative lg:w-2/3 mask-x-from-75% lg:mask-x-to-95%" src="spyro.png" alt="" />
+          <img
+            className="lg:relative lg:w-2/3 mask-x-from-75% lg:mask-x-to-95%"
+            src="spyro.png"
+            alt=""
+          />
           <div className="lg:absolute flex flex-col gap-3 mx-5">
             <h1 className="text-blue-600 text-4xl font-bold">HAVE FUN</h1>
             <p className="text-xl">Learn more about job opportunities</p>

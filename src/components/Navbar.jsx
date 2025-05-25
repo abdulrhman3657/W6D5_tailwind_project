@@ -22,7 +22,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="bg-black text-white flex justify-around items-center h-15">
+      <nav className="bg-black/70 text-white flex justify-around items-center h-15 fixed top-0 z-100 w-full">
         <img className="h-8" src="https://www.activision.com/content/dam/atvi/global/firstparty/activision/activision_logo_white-text.png" alt="" />
         <ul className="hidden lg:flex justify-between gap-3 text-gray-400">
           {nav_list.map((item, index) => (
