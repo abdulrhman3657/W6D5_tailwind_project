@@ -1,4 +1,5 @@
 import React from "react";
+import ArticleTabs from "./ArticleTabs";
 
 export default function Articles() {
   const articles_list = [
@@ -49,7 +50,11 @@ export default function Articles() {
       className=" text-white flex flex-col justify-center items-center gap-4"
     >
       <div class="blog-divider"></div>
+
       <h1 className="text-3xl mt-3">Latest News & Articles</h1>
+
+      <ArticleTabs/>
+
       <div className="p-5 flex justify-center flex-wrap gap-3">
         {articles_list.map((article, index) => (
           <div

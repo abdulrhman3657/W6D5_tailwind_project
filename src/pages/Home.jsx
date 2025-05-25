@@ -57,7 +57,7 @@ function Home() {
           <div className="flex flex-col gap-3">
             <p className="text-4xl text-center lg:text-start">Our Teams</p>
             <ul className="flex gap-5">
-              <div>
+              <div className="pb-5 lg:pb-0">
                 <li>Game Design</li>
                 <li>Art &amp; Animation</li>
                 <li>Brand Management</li>
